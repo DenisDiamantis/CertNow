@@ -1,0 +1,15 @@
+# Ignore build artifacts
+bin/
+obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore secrets
+appsettings.Development.json
+docker/.env
+
+# Ignore logs and temp
+*.log
+.vscode/
