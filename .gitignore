@@ -8,7 +8,7 @@ obj/
 
 # Ignore secrets
 appsettings.Development.json
-docker/.env
+*.env
 
 # Ignore logs and temp
 *.log
